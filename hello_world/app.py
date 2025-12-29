@@ -10,6 +10,7 @@ import pandas as pd
 
 def lambda_handler(event, context):
     print(event)
+    print("Hello World ...")
 
     source_bucket = event['Records'][0]['s3']['bucket']['name']
     source_key = event['Records'][0]['s3']['object']['key']
