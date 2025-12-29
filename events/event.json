@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us -east-1",
+      "eventTime": "2025-12-28T17:50:50.370Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "ABCYWJAH6FIMC"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "117.252.114.111"
+      },
+      "responseElements": {
+        "x-amz-request-id": "EWGX12AB7F051HGE",
+        "x-amz-id-2": "D62ptCglBksRfUxdCOqV51rJ1PFvVMD5WCnzLjgPuAS82b7mYacDkyoLLBJEm1TgYScXfdpBFCxa9IAXiAguZeDaEH2pvFxPP8/ammMedlE="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "81854d75-f965-41af-bbac-0ab25425e544",
+        "bucket": {
+          "name": "aws-s3-ingestion-test",
+          "ownerIdentity": {
+            "principalId": "ABCYWJAH6FIMC"
+          },
+          "arn": "arn:aws:s3:::aws-s3-ingestion-test"
+        },
+        "object": {
+          "key": "source/Salaries.csv",
+          "size": 10287,
+          "eTag": "c04f9e276f26329b052d7e074bd40443",
+          "sequencer": "0069516DFA565B7C0C"
+        }
+      }
+    }
+  ]
+}
