@@ -20,14 +20,14 @@
         "s3SchemaVersion": "1.0",
         "configurationId": "81854d75-f965-41af-bbac-0ab25425e544",
         "bucket": {
-          "name": "aws-s3-ingestion-test",
+          "name": "aws-s3-ingestion-v2",
           "ownerIdentity": {
             "principalId": "ABCYWJAH6FIMC"
           },
-          "arn": "arn:aws:s3:::aws-s3-ingestion-test"
+          "arn": "arn:aws:s3:::aws-s3-ingestion-v2"
         },
         "object": {
-          "key": "source/Salaries.csv",
+          "key": "source/Employees.csv",
           "size": 10287,
           "eTag": "c04f9e276f26329b052d7e074bd40443",
           "sequencer": "0069516DFA565B7C0C"
